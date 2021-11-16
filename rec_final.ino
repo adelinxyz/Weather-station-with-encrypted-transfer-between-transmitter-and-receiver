@@ -48,7 +48,7 @@ void loop()
 
                
          aes256_dec_single(key, data);
-         Serial.print("Date senzor: ");
+         Serial.print("Sensor Data: ");
             for (int i=0; i<(sizeof(data)); i++) 
               {
                 
